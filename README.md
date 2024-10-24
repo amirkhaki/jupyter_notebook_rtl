@@ -1,7 +1,7 @@
 
 # Jupyter Notebook RTL
 
-**Jupyter Notebook RTL** is a Python tool that adds right-to-left (RTL) text support for Jupyter notebooks. It's designed for users working in RTL languages such as Arabic, Hebrew, and Persian.
+**Jupyter Notebook RTL** is a Python tool that adds right-to-left (RTL) text support for Jupyter notebooks. It's designed for users working in RTL languages such as Persian, Arabic, and Hebrew.
 
 ## Features
 - Updates only Markdown cells with `direction=rtl` in their metadata.
@@ -26,6 +26,8 @@ Convert a Jupyter notebook to RTL format:
 python3 ./main.py /path/to/notebook.ipynb /path/to/out.ipynb
 ```
 Only Markdown cells with `direction=rtl` in their metadata will be updated. 
+
+To set the RTL direction for a cell, use the "Toggle current cell LTR/RTL direction" command in Jupyter Notebook v6 (this feature is removed in v7).
 
 Once the notebook is generated:
 1. Open it in Jupyter Notebook.
