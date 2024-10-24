@@ -6,6 +6,7 @@ import nbformat
 
 if len(sys.argv) < 3:
     print("usage: python3 ./main.py /path/to/notebook.ipynb /path/to/out.ipynb")
+    exit()
 
 ntbk = sys.argv[1]
 rtl = sys.argv[2]
