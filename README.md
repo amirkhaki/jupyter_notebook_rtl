@@ -14,6 +14,7 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/amirkhaki/jupyter_notebook_rtl
+   cd jupyter_notebook_rtl
    ```
 2. Install dependencies:
    ```bash
